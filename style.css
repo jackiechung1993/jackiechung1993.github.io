@@ -1,4 +1,4 @@
-.responsive-image{
+.responsive-image {
     max-width: 500px; /* Adjust as needed */
     max-height: 500px; /* Adjust as needed */
     height:auto;
@@ -23,5 +23,24 @@
 }
 
 .container {
-    max-width: 500px;
-}
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Centers the content horizontally */
+    padding: 0 15px; /* Provides some space on the sides at small screen sizes */
+  }
+  
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    align-items: stretch;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+  
